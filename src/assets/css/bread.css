@@ -1,0 +1,42 @@
+/* 重置面包屑导航的样式 --可通过引入外部样式进行覆盖 */
+.el-breadcrumb__inner a, .el-breadcrumb__inner.is-link{
+    font-weight: normal;
+}
+body{
+    min-width: 1500px;
+}
+/* 缓存卡的样式重置 */
+.tabs .el-tabs__nav-scroll{
+    margin-bottom: 12px;
+}
+.tabs .el-tabs--card>.el-tabs__header{
+    border-bottom: none;
+}
+.tabs .el-tabs--card>.el-tabs__header .el-tabs__item{
+    border-bottom: none;
+    background: #fff;
+    margin-right:6px;
+}
+.tabs .el-tabs--card>.el-tabs__header .el-tabs__nav{
+    border:none;
+}
+.el-menu {
+    border-right:none
+}
+.el-menu.el-menu--horizontal{
+    border-bottom: none;
+}
+.scroll .el-scrollbar__wrap{
+    overflow-x: hidden;
+}
+
+.login .el-form-item__content{
+    display: flex;
+    align-items: center;
+}
+.login .el-button--default{
+  margin: 0 auto!important;
+}
+.el-form-item__error{
+    color:red;
+}
